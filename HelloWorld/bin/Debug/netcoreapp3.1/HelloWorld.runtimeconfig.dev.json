@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/moleon/.dotnet/store/|arch|/|tfm|",
+      "/Users/moleon/.nuget/packages"
+    ]
+  }
+}
