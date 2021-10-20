@@ -65,7 +65,16 @@ namespace HelloWorld
                 Console.WriteLine("The string could not be converted to a boolean");
             }
 
+            //Operators
+            var f = 1;
+            var g = 2;
+            var h = 3;
+
+            Console.WriteLine(h>f ||h >g);
+
+
         }
+
     }
 }
   
