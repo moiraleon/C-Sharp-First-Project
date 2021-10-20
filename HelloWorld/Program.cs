@@ -35,6 +35,37 @@ namespace HelloWorld
             //hovering over key words and using command + click opens the Assembly Browser
             //command +x deletes a line
             //templates are placed within curly braces and double quotes
+            //to generate try catch blcok press try and click enter
+
+
+            //CONVERSION EXAMPLES with Excplicit and non casting
+            //byte b = 1;
+            //int i = b;
+            //Console.WriteLine(i);
+
+            try
+            {
+                var number2 = "1234";
+                byte b = Convert.ToByte(number2);
+                Console.WriteLine(b);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("The number could not be converted to a byte");
+            }
+
+            try
+            {
+                string str = "true";
+                bool boo = Convert.ToBoolean(str);
+                Console.WriteLine(boo);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("The string could not be converted to a boolean");
+            }
+
         }
     }
 }
+  
